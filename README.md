@@ -15,4 +15,12 @@ This repository contains Kubernetes YAML files to deploy a MongoDB cluster and M
 
 2. Deploy MongoDB:
   ```sh
-  kubectl apply -f mongodb-deployment.yaml
+   kubectl apply -f mongodb-deployment.yaml
+
+3. Deploy MongoDB Express:
+  ```sh
+   kubectl apply -f mongoexpress-deployment.yaml
+
+4. Attach an external IP for the MongoDB Express service:
+  ```sh
+   minikube service mongoexpress
