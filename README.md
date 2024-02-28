@@ -13,6 +13,6 @@ This repository contains Kubernetes YAML files to deploy a MongoDB cluster and M
    ```sh
    minikube start
 
-2. **Deploy MongoDB:**
+2. Deploy MongoDB:
   ```sh
   kubectl apply -f mongodb-deployment.yaml
